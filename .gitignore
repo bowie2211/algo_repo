@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+/code/src/array/.vscode
+/code/src/array/build
+*.zip
+/code/src/array/src/SFML-2.6.1
+/code/src/graph_algorithms/dijkstra_shortest_path_algorithm/build
+/code/src/graph_algorithms/dijkstra_shortest_path_algorithm/out

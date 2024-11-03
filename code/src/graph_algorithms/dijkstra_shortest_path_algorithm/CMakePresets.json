@@ -1,0 +1,18 @@
+{
+    "version": 8,
+    "configurePresets": [
+        {
+            "name": "MinGW for SFML",
+            "displayName": "MinGW for SFML",
+            "description": "Using compilers: C = C:/Users/mboum/mingw_complier/WinLibs_MSVCRT_64-bit/13.1.0/mingw64/bin/gcc.exe, CXX = C:/Users/mboum/mingw_complier/WinLibs_MSVCRT_64-bit/13.1.0/mingw64/bin/g++.exe",
+            "generator": "MinGW Makefiles",
+            "binaryDir": "${sourceDir}/out/build/${presetName}",
+            "cacheVariables": {
+                "CMAKE_INSTALL_PREFIX": "${sourceDir}/out/install/${presetName}",
+                "CMAKE_C_COMPILER": "C:/Users/mboum/mingw_complier/WinLibs_MSVCRT_64-bit/13.1.0/mingw64/bin/gcc.exe",
+                "CMAKE_CXX_COMPILER": "C:/Users/mboum/mingw_complier/WinLibs_MSVCRT_64-bit/13.1.0/mingw64/bin/g++.exe",
+                "CMAKE_BUILD_TYPE": "Debug"
+            }
+        }
+    ]
+}
